@@ -1,9 +1,9 @@
-import "./assets/scss/globla.scss";
+import "./assets/scss/global.scss";
 import { createApp } from "vue";
 import { createPinia } from "pinia";
-import app from "./app.vue";
 import router from "./router";
-const app = createApp(app);
-app.use(createPinia());
-app.use(router);
-app.mount("#app");
+import app from "./app.vue";
+const appObj = createApp(app);
+appObj.use(createPinia());
+appObj.use(router);
+appObj.mount("#app");
