@@ -78,7 +78,7 @@ import TheWelcome from "../components/TheWelcome.vue";
                 gimnasio! Nuestros entrenadores expertos diseñarán un programa
                 exclusivo, adaptado a tus metas y necesidades.
               </p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#">Aprende mas</a></p>
             </div>
           </div>
         </div>
@@ -97,13 +97,15 @@ import TheWelcome from "../components/TheWelcome.vue";
 
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
+              <h1>Nuestro Personal.</h1>
               <p>
-                Some representative placeholder content for the third slide of
-                this carousel.
+                En nuestro gimnasio, los entrenadores son la chispa que enciende
+                tu fuego interior. Ellos están aquí para motivarte, guiarte y
+                desafiarte en cada paso de tu viaje hacia la mejor versión de ti
+                mismo.
               </p>
               <p>
-                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                <a class="btn btn-lg btn-primary" href="#">Ver Galeria</a>
               </p>
             </div>
           </div>
@@ -152,12 +154,14 @@ import TheWelcome from "../components/TheWelcome.vue";
             <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
           </svg>
 
-          <h2>Heading</h2>
+          <h2>Clases Grupales</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            En nuestras clases grupales, la fuerza no solo viene de tus
+            músculos, sino de la unidad y la energía compartida.
           </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p>
+            <a class="btn btn-secondary" href="#">Ver al detalle &raquo;</a>
+          </p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -176,12 +180,14 @@ import TheWelcome from "../components/TheWelcome.vue";
             <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
           </svg>
 
-          <h2>Heading</h2>
+          <h2>MMA y Box</h2>
           <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
+            ¡Potencia tu fuerza y agilidad en nuestras clases de MMA y Box! Para
+            que empieces con todo
           </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p>
+            <a class="btn btn-secondary" href="#">Ver al detalle &raquo;</a>
+          </p>
         </div>
         <!-- /.col-lg-4 -->
         <div class="col-lg-4">
@@ -200,12 +206,16 @@ import TheWelcome from "../components/TheWelcome.vue";
             <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
           </svg>
 
-          <h2>Heading</h2>
+          <h2>Nuestros convenios</h2>
           <p>
-            And lastly this, the third column of representative placeholder
-            content.
+            Únete a nuestro gimnasio y disfruta de beneficios exclusivos gracias
+            a nuestros convenios con marcas de renombre! Obtén descuentos en
+            ropa deportiva, suplementos, y más. ¡Entrena con estilo y ahorra al
+            mismo tiempo!
           </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+          <p>
+            <a class="btn btn-secondary" href="#">Ver al detalle &raquo;</a>
+          </p>
         </div>
         <!-- /.col-lg-4 -->
       </div>
@@ -218,12 +228,11 @@ import TheWelcome from "../components/TheWelcome.vue";
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">
-            First featurette heading.
-            <span class="text-muted">It’ll blow your mind.</span>
+            Primer Encabezado.
+            <span class="text-muted">Listo para ser modificado</span>
           </h2>
           <p class="lead">
-            Some great placeholder content for the first featurette here.
-            Imagine some exciting prose here.
+            Espacio de texto para infomacion Extra que queramos anadir
           </p>
         </div>
         <div class="col-md-5">
@@ -249,13 +258,11 @@ import TheWelcome from "../components/TheWelcome.vue";
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
           <h2 class="featurette-heading">
-            Oh yeah, it’s that good.
-            <span class="text-muted">See for yourself.</span>
+            Mas Informacion
+            <span class="text-muted">Que podamos poner en negrilla</span>
           </h2>
           <p class="lead">
-            Another featurette? Of course. More placeholder content here to give
-            you an idea of how this layout would work with some actual
-            real-world content in place.
+            Espacio de texto para infomacion Extra que queramos anadir
           </p>
         </div>
         <div class="col-md-5 order-md-1">
@@ -281,14 +288,10 @@ import TheWelcome from "../components/TheWelcome.vue";
       <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">
-            And lastly, this one. <span class="text-muted">Checkmate.</span>
+            Tercer y ultimo espacio
+            <span class="text-muted">Listo para ser modificado</span>
           </h2>
-          <p class="lead">
-            And yes, this is the last block of representative placeholder
-            content. Again, not really intended to be actually read, simply here
-            to give you a better view of what this would look like with some
-            actual content. Your content.
-          </p>
+          <p class="lead">Ultimo bloque para anadir informacion que queramos</p>
         </div>
         <div class="col-md-5">
           <svg
@@ -316,10 +319,11 @@ import TheWelcome from "../components/TheWelcome.vue";
 
     <!-- FOOTER -->
     <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
+      <p class="float-end"><a href="#">Devuelta arriba</a></p>
       <p>
-        &copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
-        <a href="#">Terms</a>
+        &copy; 2023–202etc SoloGym, marca Registrada. &middot;
+        <a href="#">Privacidad</a> &middot;
+        <a href="#">Terminos</a>
       </p>
     </footer>
   </main>
